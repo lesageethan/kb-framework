@@ -1,0 +1,276 @@
+/* Columns */
+
+.col {
+    float: left;
+}
+
+.col-1 {
+    width: 8.332%;
+}
+
+.col-2 {
+    width: 16.665%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.332%;
+}
+
+.col-5 {
+    width: 41.665%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.332%;
+}
+
+.col-8 {
+    width: 66.665%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.332%;
+}
+
+.col-11 {
+    width: 91.665%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* Responsive Columns */
+
+@media (max-width:540px) {
+    .lapse-sm {
+        width: 100%;
+    }
+}
+
+@media (max-width:720px) {
+    .lapse-md {
+        width: 100%;
+    }
+}
+
+@media (max-width:960px) {
+    .lapse-lg {
+        width: 100%;
+    }
+}
+
+@media (max-width:1100px) {
+    .lapse-xl {
+        width: 100%;
+    }
+}
+
+/* Tables */
+
+.tab {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tab td {
+    padding: 10px;
+}
+
+.tab th {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    border-bottom: 1px solid #444;
+}
+
+.tab tr:nth-child(odd) {
+    background:#f4f4f4;
+}
+  
+.tab td, table th {
+    border-left: 1px solid #444;
+    border-right: 1px solid #444;
+}
+
+.tab tr:first-child th {
+    border-top: 0;
+}
+
+.tab tr:last-child td {
+    border-bottom: 0;
+}
+
+.tab tr td:first-child,
+.tab tr th:first-child {
+    border-left: 0;
+}
+
+.tab tr td:last-child,
+.tab tr th:last-child {
+    border-right: 0;
+}
+
+/* Headings */
+
+h1,h2,h3,h4,h5,h6 {
+    line-height:1.2;
+}
+
+/* Code Blocks */
+
+.code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8em;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Responsive Container */
+
+.container { 
+    margin:0px auto;
+    max-width:700px;
+    padding:0 10px;
+}
+
+/* Form Blocks */
+
+.form-block {
+    padding: 20px;
+    border: 1px solid #828282;
+    margin: 10px;
+}
+
+.form-block input, .form-block textarea {
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    box-sizing: border-box;
+}
+
+.form-block button {
+    background-color: white;
+    padding: 8px 16px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    color: #444;
+}
+
+.form-block fieldset input {
+    width: auto;
+}
+
+/* Horizontal Rule */
+
+.hr {
+    border-top: 1px solid #444;
+}
+
+/* Tiles */
+
+.tile {
+    margin: 10px;
+    border: 1px solid #828282;
+    margin-bottom: 20px;
+}
+
+.tile img {
+    width: 100%;
+}
+
+.tile-body {
+    padding: 20px;
+}
+
+.tile h1, .tile h2, .tile h3, .tile h4, .tile h5, .tile h6 {
+    margin-top: 0;
+}
+
+/* Hiding for Responsivity */
+
+@media (max-width:540px) {
+    .hide-sm {
+        width: 0px;
+    }
+}
+
+@media (max-width:720px) {
+    .hide-md {
+        width: 0px;
+    }
+}
+
+@media (max-width:960px) {
+    .hide-lg {
+        width: 0px;
+    }
+}
+
+@media (max-width:1100px) {
+    .hide-xl {
+        width: 0px;
+    }
+}
+
+/* Captions */
+
+.caption {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+/* Navbar */
+
+.nav {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    height: 50px;
+}
+
+.nav ul, .nav li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 50px;
+}
+
+.nav-el {
+    display: inline;
+    margin: 5px;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+body {
+    margin: 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-img {
+    height: 50px;
+}
